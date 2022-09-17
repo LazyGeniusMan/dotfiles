@@ -1,0 +1,39 @@
+swipe:
+  3:
+    left:
+      sendkey: "LEFTMETA+LEFT" # Tile window to left
+    right:
+      sendkey: "LEFTMETA+RIGHT" # Tile window to right
+    up:
+      sendkey: "LEFTMETA+W" # Maximize window
+      keypress:
+        LEFTSHIFT:
+            sendkey: "LEFTCTRL+F10" # Present windows
+    down:
+      sendkey: "LEFTMETA+LEFTALT+DOWN" # Minimize window
+      keypress:
+        LEFTSHIFT:
+            sendkey: "LEFTMETA+D" # Show Desktop
+  4:
+    up:
+      sendkey: "LEFTCTRL+SCROLLUP" # Zoom in
+      threshold: 0.1
+      interval: 0.2
+    down:
+      sendkey: "LEFTCTRL+SCROLLDOWN" # Zoom out
+      threshold: 0.1
+      interval: 0.2
+hold:
+  3:
+    sendkey: "LEFTALT+F4" # Close window
+threshold:
+  swipe: 0.5
+interval:
+  swipe: 0.5
+plugin: 
+  inputs:
+    libinput_command_input:
+      show-keycodes: true
+      enable-tap: true # click to tap
+      enable-dwt: true # disable tap while typing
+      verbose: true
