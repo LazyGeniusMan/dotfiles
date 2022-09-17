@@ -5,6 +5,7 @@ linux-wifi-hotspot
 octopi
 octopi-notifier-frameworks
 papirus-folders
+protonvpn-gui
 ruby-fusuma
 ruby-fusuma-appmatcher
 ruby-fusuma-keypress
