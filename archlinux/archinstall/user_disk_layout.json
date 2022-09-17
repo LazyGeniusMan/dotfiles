@@ -1,0 +1,90 @@
+{
+    "/dev/nvme0n1": {
+        "partitions": [
+            {
+                "ESP": false,
+                "PARTUUID": "2ACE44F3CE44B939",
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "ntfs"
+                },
+                "mountpoint": null,
+                "size": 1083392,
+                "start": 2048,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "ESP": true,
+                "PARTUUID": "EEBA-B01D",
+                "boot": true,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "vfat"
+                },
+                "mountpoint": null,
+                "size": 204800,
+                "start": 1085440,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "ESP": false,
+                "PARTUUID": "",
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": ""
+                },
+                "mountpoint": null,
+                "size": 32768,
+                "start": 1290240,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "ESP": false,
+                "PARTUUID": "D6B84D0BB84CEB95",
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "ntfs"
+                },
+                "mountpoint": null,
+                "size": 729190895,
+                "start": 1323008,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "ESP": true,
+                "PARTUUID": "AD06-1BC3",
+                "boot": true,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "vfat"
+                },
+                "mountpoint": "/boot",
+                "size": 1048576,
+                "start": 730728448,
+                "type": "primary",
+                "wipe": true
+            },
+            {
+                "ESP": false,
+                "PARTUUID": "01f09a2d-bb7c-44b0-9960-f3f1654625cf",
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "ext4"
+                },
+                "mountpoint": "/",
+                "size": 268438159,
+                "start": 731777024,
+                "type": "primary",
+                "wipe": true
+            }
+        ]
+    }
+}
