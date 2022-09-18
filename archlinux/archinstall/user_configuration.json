@@ -36,6 +36,7 @@
         "zsh-theme-powerlevel10k",
         "chezmoi",
         "micro",
+        "wireguard-tools",
         "git",
         "docker",
         "docker-compose",
