@@ -1,6 +1,8 @@
 bottles
 google-chrome
+hardcode-tray-git
 jellyfin-mpv-shim
+jdownloader2
 linux-wifi-hotspot
 octopi
 octopi-notifier-frameworks
