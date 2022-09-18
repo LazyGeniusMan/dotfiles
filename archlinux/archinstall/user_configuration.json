@@ -38,6 +38,7 @@
         "micro",
         "wireguard-tools",
         "git",
+        "firewalld",
         "docker",
         "docker-compose",
         "kde-system-meta",
