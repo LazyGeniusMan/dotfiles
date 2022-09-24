@@ -30,6 +30,7 @@
         "type": "nm"
     },
     "packages": [
+        "exfatprogs",
         "ntfs-3g",
         "zsh",
         "zsh-completions",
