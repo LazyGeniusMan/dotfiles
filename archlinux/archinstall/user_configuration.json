@@ -30,6 +30,7 @@
         "type": "nm"
     },
     "packages": [
+        "reflector",
         "exfatprogs",
         "ntfs-3g",
         "zsh",
