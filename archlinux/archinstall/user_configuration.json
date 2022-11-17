@@ -69,6 +69,7 @@
         "networkmanager-fortisslvpn",
         "openconnect",
         "networkmanager-openconnect",
+        "bitwarden",
         "firefox",
         "libreoffice-fresh",
         "mpv",
